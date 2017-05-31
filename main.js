@@ -1,4 +1,5 @@
 let menu = document.getElementById("menu");
-menu.addEventListener("click", () => {
+let menuExpand = document.getElementById("menu-expand");
+menuExpand.addEventListener("click", () => {
 	menu.classList.toggle("slide-out");
 });
