@@ -1,0 +1,21 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.App {
+	width: 100vw;
+	height: 100vh; 
+	background-color: #34495e;
+}
+
+.menubar {
+	width: 150px;
+	height: 600px;
+	background-color: #ecf0f1;
+	box-shadow: 0 0 2px;
+}
+
+.menubar:hover {
+	background-color: red;
+}
